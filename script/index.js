@@ -7,10 +7,11 @@ function login(){
 
     if(username === "admin" && password === "admin123"){
         alert("Login successful!");
-            // window.location.href = "dashboard.html";
+            window.location.href = "http://127.0.0.1:5500/main.html";
+            // window.location.href = "main.html";
     }else{
         errorMsg.classList.remove("hidden");
-        console.log("Invalid username or password");
+        
     }
     
     
